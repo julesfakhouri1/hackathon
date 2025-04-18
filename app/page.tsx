@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <div>
             <nav className="flex items-center justify-between px-8 py-8 bg-white">
-                <h1 className="text-4xl font-light">LOGO</h1>
+                <img src="/icons/logo.svg" alt="Logo" width={160} height={160} />
 
                 <div className="hidden md:flex gap-6 text-lg">
                     <a
@@ -156,12 +156,18 @@ export default function Home() {
             <div className='bg-[#1E1E1E] relative z-10 mt-[-50px] rounded-tl-[50px] rounded-tr-[50px]'>
                 <br/>
                 <div className='p-8 text-white'>
-                    <h1 className='text-2xl mb-4 font-medium'>LOGO</h1>
                     <p className='text-xl mb-6 font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     <p className='text-2xl mb-2 font-medium'>Do it yourself ! -&gt;</p>
                     <p className='text-2xl mb-2 font-medium'>Avec un.e pro -&gt;</p>
                     <p className='text-xl mb-4 font-light'>© 2025 NOM</p>
                     <p className='text-lg mb-4 font-medium'>Mentions Légales Conditions générales d’utilisation Politique de protection des données personnelles Politique de Cookies Déclaration d’accessibilité</p>
+                    <img
+                        src="/icons/logo.svg"
+                        alt="Logo"
+                        width={200}
+                        height={200}
+                        className="logo-blanc"
+                    />
                 </div>
             </div>
         </div>

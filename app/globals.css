@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.logo-blanc {
+    filter: invert(1);
+}
