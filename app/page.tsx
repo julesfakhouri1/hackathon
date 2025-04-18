@@ -76,11 +76,40 @@ export default function Home() {
                     </a>
                 </div>
             )}
-            <div className='bg-[#D1EEFE] min-h-[300px] rounded-tl-[50px] rounded-tr-[50px]'>
-            </div>
+            <div className="flex flex-col items-center min-h-screen bg-white pt-10">
+                {/* Bloc bleu clair */}
+                <div className="relative z-10 w-full max-w-2xl px-8 pt-10 pb-14 bg-[#d1eefe] rounded-[48px]">
 
-            <div className="px-8 mt-[-120px] relative z-10">
-                <div className='bg-white rounded-[60px] h-[150px]'>
+                    {/* -- 1 -- */}
+                    <div className="flex items-center gap-2 mb-3">
+                        <span className="w-5 h-5 bg-[#FF6A3F] rounded-full border-2 border-black"></span>
+                        <span className="font-black text-lg">1. Personnalisation stylée</span>
+                    </div>
+                    <div className="ml-7 mb-6 text-base">
+                        <span className="text-[#188C65] font-bold">1 jeune sur 2</span> se dit prêt à investir dans un vêtement personnalisé.
+                    </div>
+                    {/* -- 2 -- */}
+                    <div className="flex items-center gap-2 mb-3">
+                        <span className="w-5 h-5 rounded-full border-2 border-black bg-white"></span>
+                        <span className="font-black text-lg">2. Réparer c’est agir</span>
+                    </div>
+                    <div className="ml-7 mb-6 text-base">
+                        <span className="text-[#FF6A3F] font-bold">833.000 tonnes</span> de vêtements sont mises sur le marché chaque année. Un trou ? Une tâche ? Donne-leur une seconde vie.
+                    </div>
+                    {/* -- 3 -- */}
+                    <div className="flex items-center gap-2 mb-3">
+      <span className="w-5 h-5 rounded-full border-2 border-black flex items-center justify-center">
+        <span className="w-2.5 h-2.5 bg-[#26B37B] rounded-full"></span>
+      </span>
+                        <span className="font-black text-lg">3. Transmission du savoir</span>
+                    </div>
+                    <div className="ml-7 text-base">
+                        <span className="text-[#26B37B] font-bold">+ de 700 réparateurs labellisés</span> en France.<br />
+                        Apprends avec des pros, développe une compétence utile.
+                    </div>
+                </div>
+                <div className="-mt-8 z-20 w-full max-w-xl bg-white rounded-[48px] shadow px-6 py-8 flex flex-col items-center font-semibold text-lg text-center">
+                    Apprends à <b>sublimer</b> tes<br />vêtements abîmés
                 </div>
             </div>
 
