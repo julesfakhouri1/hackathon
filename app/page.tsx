@@ -158,9 +158,8 @@ export default function Home() {
                 <div className='p-8 text-white'>
                     <h1 className='text-2xl mb-4 font-medium'>LOGO</h1>
                     <p className='text-xl mb-6 font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                    <p className='text-2xl mb-2 font-medium'>LOREM -&gt;</p>
-                    <p className='text-2xl mb-2 font-medium'>LOREM -&gt;</p>
-                    <p className='text-2xl mb-6 font-medium'>LOREM -&gt;</p>
+                    <p className='text-2xl mb-2 font-medium'>Do it yourself ! -&gt;</p>
+                    <p className='text-2xl mb-2 font-medium'>Avec un.e pro -&gt;</p>
                     <p className='text-xl mb-4 font-light'>© 2025 NOM</p>
                     <p className='text-lg mb-4 font-medium'>Mentions Légales Conditions générales d’utilisation Politique de protection des données personnelles Politique de Cookies Déclaration d’accessibilité</p>
                 </div>
